@@ -1,31 +1,32 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
-// TextTheme textTheme = TextTheme(
-//   headlineLarge: GoogleFonts.sourceSerifPro(
-//     fontSize: 32,
-//     color: Colors.black87,
-//     fontWeight: FontWeight.bold,
-//   ),
-//   headlineMedium: GoogleFonts.sourceSerifPro(
-//     fontSize: 20,
-//     color: Colors.black87,
-//     fontWeight: FontWeight.w800,
-//   ),
-//   headlineSmall: GoogleFonts.sourceSerifPro(
-//     fontSize: 18,
-//     fontWeight: FontWeight.w400,
-//     color: Colors.black87,
-//   ),
-//   titleLarge: GoogleFonts.poppins(
-//     fontSize: 16,
-//     color: Colors.black87,
-//     fontWeight: FontWeight.w400,
-//   ),
-//   titleMedium: GoogleFonts.poppins(
-//     color: Colors.grey,
-//     fontWeight: FontWeight.w400,
-//   ),
-// );
+TextTheme textTheme = TextTheme(
+  headlineLarge: GoogleFonts.sourceSerifPro(
+    fontSize: 32,
+    color: Colors.black87,
+    fontWeight: FontWeight.bold,
+  ),
+  headlineMedium: GoogleFonts.sourceSerifPro(
+    fontSize: 20,
+    color: Colors.black87,
+    fontWeight: FontWeight.w800,
+  ),
+  headlineSmall: GoogleFonts.sourceSerifPro(
+    fontSize: 18,
+    fontWeight: FontWeight.w400,
+    color: Colors.black87,
+  ),
+  titleLarge: GoogleFonts.poppins(
+    fontSize: 16,
+    color: Colors.black87,
+    fontWeight: FontWeight.w400,
+  ),
+  titleMedium: GoogleFonts.poppins(
+    color: Colors.grey,
+    fontWeight: FontWeight.w400,
+  ),
+);
 
 class AppColors {
   static Color lightBlue = const Color(0xffCFEDEF);

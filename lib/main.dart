@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
       ],
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
-        // theme: ThemeData(textTheme: textTheme),
+        theme: ThemeData(textTheme: textTheme),
         home: const MainScreen(),
       ),
     );
